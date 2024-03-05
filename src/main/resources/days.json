@@ -1,0 +1,29 @@
+{
+  "days": [
+    {
+      "day": "05.03.2024",
+      "words": [
+        {
+          "pl": "krowa",
+          "en": "cow",
+          "cn": "CNcow"
+        },
+        {
+          "pl": "akwarium",
+          "en": "tank",
+          "cn": "CNtank"
+        }
+      ]
+    },
+    {
+      "day": "06.03.2024",
+      "words": [
+        {
+          "pl": "nietoperz",
+          "en": "bat",
+          "cn": "CNbat"
+        }
+      ]
+    }
+  ]
+}
