@@ -47,6 +47,7 @@ public class PolishWords {
     }
 
     private Date getDateFromString(String date) {
+        date = date.replace("-", ".");
         String dateString = date;
         SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd");
 

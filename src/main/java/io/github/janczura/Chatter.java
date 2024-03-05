@@ -9,21 +9,21 @@ public class Chatter {
     private final Set<Integer> randomedValues = new HashSet<>();
 
     public Chatter(DayData dayData) {
-        System.out.println("Przetłumacz wyrazy: ");
+        System.out.println("Translate or explain words: ");
         int size = dayData.getWords().size();
         List<WordData> wordDataSet = dayData.getWords();
+        Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < size; i++) {
             WordData random = getRandomWord(wordDataSet);
-            System.out.println(random.getPl() + " to :");
-            Scanner scanner = new Scanner(System.in);
+            System.out.println(random.getPl() + " means ");
             String input = scanner.nextLine();
-            scanner.close();
             random.setExplained(input);
         }
+        scanner.close();
 
         for (WordData wordData : dayData.getWords()) {
-            System.out.println(wordData.getPl() + " to " + wordData.getEn() + " (" + wordData.getCn() + ")");
-            System.out.println("Twoja odpowiedź: " + wordData.getExplained());
+            System.out.println(wordData.getPl() + " means " + wordData.getEn() + " (" + wordData.getCn() + ")");
+            System.out.println("Your answer: " + wordData.getExplained());
         }
 
     }
@@ -32,7 +32,7 @@ public class Chatter {
         int size = wordData.size();
         Random random = new Random();
         int randInt = random.nextInt(size);
-        while (!randomedValues.contains(randInt)) {
+        while (randomedValues.contains(randInt)) {
             randInt = random.nextInt(size);
         }
         randomedValues.add(randInt);

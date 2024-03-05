@@ -1,7 +1,7 @@
 {
   "days": [
     {
-      "day": "2024.03.05",
+      "day": "2024.03.03",
       "words": [
         {
           "pl": "krowa",
@@ -22,6 +22,141 @@
           "pl": "nietoperz",
           "en": "bat",
           "cn": "CNbat"
+        }
+      ]
+    },
+    {
+      "day": "2024.03.05",
+      "words": [
+        {
+          "pl": "stół",
+          "en": "table",
+          "cn": "桌子"
+        },
+        {
+          "pl": "książka",
+          "en": "book",
+          "cn": "书"
+        },
+        {
+          "pl": "kawa",
+          "en": "coffee",
+          "cn": "咖啡"
+        },
+        {
+          "pl": "pies",
+          "en": "dog",
+          "cn": "狗"
+        },
+        {
+          "pl": "telefon",
+          "en": "phone",
+          "cn": "电话"
+        },
+        {
+          "pl": "biegać",
+          "en": "run",
+          "cn": "跑步"
+        },
+        {
+          "pl": "czytać",
+          "en": "read",
+          "cn": "阅读"
+        },
+        {
+          "pl": "pisać",
+          "en": "write",
+          "cn": "写作"
+        },
+        {
+          "pl": "śpiewać",
+          "en": "sing",
+          "cn": "唱歌"
+        },
+        {
+          "pl": "grać",
+          "en": "play",
+          "cn": "玩耍"
+        },
+        {
+          "pl": "duży",
+          "en": "big",
+          "cn": "大"
+        },
+        {
+          "pl": "szybki",
+          "en": "fast",
+          "cn": "快"
+        },
+        {
+          "pl": "czerwony",
+          "en": "red",
+          "cn": "红色的"
+        },
+        {
+          "pl": "szczęśliwy",
+          "en": "happy",
+          "cn": "幸福的"
+        },
+        {
+          "pl": "zimny",
+          "en": "cold",
+          "cn": "冷的"
+        }
+      ]
+    },
+    {
+      "day": "2024.03.06",
+      "words": [
+        {
+          "pl": "interesujący",
+          "en": "interesting",
+          "cn": "有趣的"
+        },
+        {
+          "pl": "dostawa",
+          "en": "delivery",
+          "cn": "交货"
+        },
+        {
+          "pl": "paczka",
+          "en": "package",
+          "cn": "包裹"
+        },
+        {
+          "pl": "natychmiast",
+          "en": "immediately",
+          "cn": "立即"
+        },
+        {
+          "pl": "opiekun",
+          "en": "guardian",
+          "cn": "监护人"
+        },
+        {
+          "pl": "gatunek",
+          "en": "species",
+          "cn": "物种"
+        },
+        {
+          "pl": "kuweta",
+          "en": "litter box",
+          "cn": "猫砂盆"
+        },
+        {
+          "pl": "elastyczny",
+          "en": "flexible",
+          "cn": "灵活的"
+        },
+        {
+          "pl": "przerwa",
+          "en": "break",
+          "cn": "休息"
+        },
+        {
+          "pl": "drzemka",
+          "en": "nap",
+          "cn": "小睡"
         }
       ]
     }
