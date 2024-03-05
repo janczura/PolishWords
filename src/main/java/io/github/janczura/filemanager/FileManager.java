@@ -1,6 +1,8 @@
 package io.github.janczura.filemanager;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -16,13 +18,28 @@ public class FileManager {
         createInitConfigFileAndDir();
     }
 
-    public void createFile(String path) throws IOException {
-        new File("test.txt").createNewFile();
+    public void createFile(String fileName, String data) throws IOException {
+        new File(path + fileName).createNewFile();
+        insertDataToFile(path + fileName, data);
     }
 
-    public String getFileContent(String fileName) throws IOException {
-        String fullPath = path+fileName;
-        return new String(Files.readAllBytes(Paths.get(fullPath)));
+    public String getFileContent(String fileName) {
+        String content = null;
+        try {
+            String fullPath = path + fileName;
+            content = new String(Files.readAllBytes(Paths.get(fullPath)));
+        } catch (Exception ignored) {
+        }
+        return content;
+    }
+
+    public void insertDataToFile(String path, String data) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write(data);
+            System.out.println("Zawartość została zapisana do pliku.");
+        } catch (IOException e) {
+            System.err.println("Błąd podczas zapisywania do pliku: " + e.getMessage());
+        }
     }
 
     private void createInitConfigFileAndDir() throws IOException {
@@ -32,6 +49,7 @@ public class FileManager {
         if (!directory.exists()) {
             directory.mkdirs();
             new File(configPath).createNewFile();
+            insertDataToFile(path, "https://raw.githubusercontent.com/janczura/PolishWords/master/src/main/resources/days.json");
         }
     }
 }

@@ -4,6 +4,7 @@ public class WordData {
     private String pl;
     private String en;
     private String cn;
+    private String explained;
 
     public WordData(String pl, String en, String cn) {
         this.pl = pl;
@@ -21,6 +22,14 @@ public class WordData {
 
     public String getCn() {
         return cn;
+    }
+
+    public String getExplained() {
+        return explained;
+    }
+
+    public void setExplained(String explained) {
+        this.explained = explained;
     }
 
     @Override
