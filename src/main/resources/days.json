@@ -29,79 +29,79 @@
       "day": "2024.03.05",
       "words": [
         {
-          "pl": "stół",
+          "pl": "st\u00f3\u0142",
           "en": "table",
-          "cn": "桌子"
+          "cn": "\u684c\u5b50"
         },
         {
-          "pl": "książka",
+          "pl": "ksi\u0105\u017cka",
           "en": "book",
-          "cn": "书"
+          "cn": "\u4e66"
         },
         {
           "pl": "kawa",
           "en": "coffee",
-          "cn": "咖啡"
+          "cn": "\u5496\u5561"
         },
         {
           "pl": "pies",
           "en": "dog",
-          "cn": "狗"
+          "cn": "\u72d7"
         },
         {
           "pl": "telefon",
           "en": "phone",
-          "cn": "电话"
+          "cn": "\u7535\u8bdd"
         },
         {
-          "pl": "biegać",
+          "pl": "biega\u0107",
           "en": "run",
-          "cn": "跑步"
+          "cn": "\u8dd1\u6b65"
         },
         {
-          "pl": "czytać",
+          "pl": "czyta\u0107",
           "en": "read",
-          "cn": "阅读"
+          "cn": "\u9605\u8bfb"
         },
         {
-          "pl": "pisać",
+          "pl": "pisa\u0107",
           "en": "write",
-          "cn": "写作"
+          "cn": "\u5199\u4f5c"
         },
         {
-          "pl": "śpiewać",
+          "pl": "\u015bpiewa\u0107",
           "en": "sing",
-          "cn": "唱歌"
+          "cn": "\u5531\u6b4c"
         },
         {
-          "pl": "grać",
+          "pl": "gra\u0107",
           "en": "play",
-          "cn": "玩耍"
+          "cn": "\u73a9\u800d"
         },
         {
-          "pl": "duży",
+          "pl": "du\u017cy",
           "en": "big",
-          "cn": "大"
+          "cn": "\u5927"
         },
         {
           "pl": "szybki",
           "en": "fast",
-          "cn": "快"
+          "cn": "\u5feb"
         },
         {
           "pl": "czerwony",
           "en": "red",
-          "cn": "红色的"
+          "cn": "\u7ea2\u8272\u7684"
         },
         {
-          "pl": "szczęśliwy",
+          "pl": "szcz\u0119\u015bliwy",
           "en": "happy",
-          "cn": "幸福的"
+          "cn": "\u5e78\u798f\u7684"
         },
         {
           "pl": "zimny",
           "en": "cold",
-          "cn": "冷的"
+          "cn": "\u51b7\u7684"
         }
       ]
     },
@@ -109,54 +109,54 @@
       "day": "2024.03.06",
       "words": [
         {
-          "pl": "interesujący",
+          "pl": "interesuj\u0105cy",
           "en": "interesting",
-          "cn": "有趣的"
+          "cn": "\u6709\u8da3\u7684"
         },
         {
           "pl": "dostawa",
           "en": "delivery",
-          "cn": "交货"
+          "cn": "\u4ea4\u8d27"
         },
         {
           "pl": "paczka",
           "en": "package",
-          "cn": "包裹"
+          "cn": "\u5305\u88f9"
         },
         {
           "pl": "natychmiast",
           "en": "immediately",
-          "cn": "立即"
+          "cn": "\u7acb\u5373"
         },
         {
           "pl": "opiekun",
           "en": "guardian",
-          "cn": "监护人"
+          "cn": "\u76d1\u62a4\u4eba"
         },
         {
           "pl": "gatunek",
           "en": "species",
-          "cn": "物种"
+          "cn": "\u7269\u79cd"
         },
         {
           "pl": "kuweta",
           "en": "litter box",
-          "cn": "猫砂盆"
+          "cn": "\u732b\u7802\u76c6"
         },
         {
           "pl": "elastyczny",
           "en": "flexible",
-          "cn": "灵活的"
+          "cn": "\u7075\u6d3b\u7684"
         },
         {
           "pl": "przerwa",
           "en": "break",
-          "cn": "休息"
+          "cn": "\u4f11\u606f"
         },
         {
           "pl": "drzemka",
           "en": "nap",
-          "cn": "小睡"
+          "cn": "\u5c0f\u7761"
         }
       ]
     }
